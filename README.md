@@ -181,14 +181,4 @@ uv run python -c "from app.pipeline import FusionDetector; FusionDetector(model_
 - 边缘细化：`--refine-edges` 对细长/大目标轻微扩张边界，减少截断。
 - 简易测距校准：`--calib-k`/`--calib-min`/`--calib-max`，距离≈ k / sqrt(box_area_ratio)，区间裁剪。
 
-下一步建议
 
-- 采集并标注 ~500 张居家/社区场景图像，补足 COCO/KITTI 中的缺失视角与小目标样本。
-- 在目标边缘设备上测试 ONNX 或 TFLite 量化模型并记录延迟与误报率。
-- 根据不同用户（老人/儿童/视障）调整提醒策略（频率、语速、信息详略）。
-
-后续建议
-
-- 在目标硬件（如智能眼镜、树莓派、Jetson）上测试性能，并使用 ONNX/TensorRT/量化加速。
-- 微调模型以提高对常见障碍物（楼梯、台阶、低矮障碍、儿童玩具等）的识别率。
-- 集成振动电机（触觉提醒）用于难以听到警报的场景。
