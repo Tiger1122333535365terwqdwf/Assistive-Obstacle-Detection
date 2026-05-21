@@ -1,0 +1,24 @@
+数据集合并报告
+======================================================================
+
+源数据集:
+  - train2017: 52206 张
+  - train2017_rest (清洗后): 62101 张
+
+合并结果:
+  - 总图片数: 114307
+  - 重复处理: 0 张 (保留 train2017_rest 版本)
+  - 有效标注: 112999 (98.9%)
+
+文件分布:
+  - 来自 train2017: 52206
+  - 来自 train2017_rest: 62101
+
+输出目录:
+  - 图片: C:\Users\18875\Downloads\computer vision project\samples\cocotrain\images\train_merged
+  - 标签: C:\Users\18875\Downloads\computer vision project\samples\cocotrain\labels\train_merged
+
+建议:
+  - 使用 data/auto_coco_merged.yaml 配置文件
+  - 从最佳权重开始训练 80 轮
+  - 预期 mAP 提升 3-5 个百分点

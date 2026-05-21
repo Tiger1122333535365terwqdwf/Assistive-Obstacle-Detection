@@ -1,0 +1,14 @@
+[project]
+name = "computer-vision-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.5",
+    "onnxruntime-gpu>=1.23.2",
+    "openai>=2.14.0",
+    "opencv-python>=4.11.0.86",
+    "pyttsx3>=2.99",
+    "ultralytics>=8.3.234",
+]

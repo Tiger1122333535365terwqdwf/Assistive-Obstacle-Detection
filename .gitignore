@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv312/
+.venv_gpu/
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# Model weights and large files
+*.pt
+*.pth
+*.onnx
+weights/
+
+# Training outputs and caches
+runs/
+*.cache
+
+# Archived datasets / downloads
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Logs and temporary artifacts
+*.log
+*.tmp
+*.bak

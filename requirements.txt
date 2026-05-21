@@ -1,0 +1,15 @@
+ultralytics
+opencv-python
+numpy
+pyttsx3
+torch
+torchvision
+onnxruntime
+onnx
+tqdm
+Pillow
+pycocotools
+scikit-image
+pyyaml
+gradio
+openai>=1.0.0
