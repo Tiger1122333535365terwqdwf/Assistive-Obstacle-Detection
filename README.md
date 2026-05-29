@@ -2,7 +2,7 @@
 
 ## 🎯 系统概述
 
-这是一套有初中学生开发专为视障人士、老人、儿童设计的**实时障碍物检测系统**。
+这是一套由初中学生开发专为视障人士、老人、儿童设计的**实时障碍物检测系统**。
 麻烦您填写此问卷以帮助我们改进项目：https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=dlPdK4RTuUOkbgVnOkdsRUnPCo4F1cRBp9lUfpjwLu9UN0JLUDNJUjlNMlVWRDIxM0dUMlpaUVVKNi4u
 通过 AI 视觉识别技术，系统能够：
 - ✅ 实时检测周围障碍物
